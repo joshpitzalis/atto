@@ -10,9 +10,11 @@ No, this one is just an extension of [Tachyons](http://tachyons.io/). Full credi
 In Progress...
 
 - [x] Abbreviate classnames to smaller snippets.
+- [ ] Add flex basis, grow and shrink.
 - [ ] Add all CSS 2.1 properties for fallbacks.
 - [ ] Add an accessible HTML starter template.
 - [ ] Add an accessible colour palette.
+- [ ] host on unpkg.
 
 #### Fallback [CSS 2.1 properties](http://caniuse.com/#search=css) (well-supported subset)
 These properties are supported in effectively all browsers (since IE6+, Firefox 2+, Chrome 1+ etc)
