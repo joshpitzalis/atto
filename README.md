@@ -1,5 +1,7 @@
 # Fluxion
-An Atomic CSS Flexbox framework with fallbacks.
+An Atomic Flexbox CSS Framework.
+
+![Screenshot](fluxion.png)
 
 ## Yet Another CSS Framework?
 
@@ -7,7 +9,7 @@ No, this one is just an extension of [Tachyons](http://tachyons.io/). Full credi
 
 In Progress...
 
-- [ ] Abbreviate classnames to smaller snippets.
+- [x] Abbreviate classnames to smaller snippets.
 - [ ] Add all CSS 2.1 properties for fallbacks.
 - [ ] Add an accessible HTML starter template.
 - [ ] Add an accessible colour palette.
@@ -55,3 +57,5 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + word-spacing
 + visibility (visible | hidden)
 + z-index
+
+Credit to [Hea Poh Lin](https://thenounproject.com/term/wave-line/897299/) for the logo.
