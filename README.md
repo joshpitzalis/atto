@@ -5,7 +5,6 @@ An Atomic Flexbox CSS Framework.
 
 + Currently 877 bytes [minified](http://www.minifier.org/).
 + Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
-+ Install via
 
 ## Yet Another CSS Framework?
 
