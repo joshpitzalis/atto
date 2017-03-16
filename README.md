@@ -1,7 +1,11 @@
-# Fluxion
+# Atto
 An Atomic Flexbox CSS Framework.
 
-![Screenshot](fluxion.png)
+**Atto**: A unit prefix in the metric system denoting one trillionth.
+
++ Currently 877 bytes [minified](http://www.minifier.org/).
++ Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
++ Install via
 
 ## Yet Another CSS Framework?
 
@@ -59,5 +63,3 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + word-spacing
 + visibility (visible | hidden)
 + z-index
-
-Credit to [Hea Poh Lin](https://thenounproject.com/term/wave-line/897299/) for the logo.
