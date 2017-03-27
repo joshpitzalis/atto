@@ -62,3 +62,7 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + word-spacing
 + visibility (visible | hidden)
 + z-index
+
+#### Opinions
+
++ Text justification not included (text-align: justify) because it can impair readability. If you need it, add it.
