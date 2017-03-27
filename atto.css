@@ -13,12 +13,12 @@
 .cxe { align-items: flex-end; }
 .cxc { align-items: center; }
 .cxb { align-items: baseline; }
-.cxs { align-items: stretch; }
+.cxf { align-items: stretch; }
 .ss { align-self: flex-start; }
 .se { align-self: flex-end; }
 .sc { align-self: center; }
 .sb { align-self: baseline; }
-.st { align-self: stretch; }
+.sf { align-self: stretch; }
 /*mx is for main axis*/
 .mxs { justify-content: flex-start; }
 .mxe { justify-content: flex-end; }
@@ -30,7 +30,7 @@
 .acc { align-content: center; }
 .acb { align-content: space-between; }
 .aca { align-content: space-around; }
-.act { align-content: stretch; }
+.acf { align-content: stretch; }
 .0 { order: 0; }
 .1 { order: 1; }
 .2 { order: 2; }
