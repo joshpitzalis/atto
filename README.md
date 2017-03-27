@@ -3,7 +3,7 @@ An Atomic Flexbox CSS Framework.
 
 **Atto**: A unit prefix in the metric system denoting one trillionth.
 
-+ Currently 877 bytes [minified](http://www.minifier.org/).
++ Currently 0.006 mb [minified](http://www.minifier.org/).
 + Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
 
 ## Yet Another CSS Framework?
@@ -42,15 +42,15 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + font-style (normal | italic | oblique)
 + font-variant (normal | small-caps)
 + font-weight
-+ height
++ ~~height~~
 + left
 + line-height
 + list-style
 + list-style-image
 + list-style-position
-+ margin
++ ~~margin~~
 + overflow (visible | hidden | scroll | auto)
-+ padding
++ ~~padding~~
 + position (static | relative | absolute)
 + right
 + text-align (left | right | center | justify)
@@ -58,7 +58,7 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + text-indent
 + text-transform (capitalize | uppercase | lowercase | none)
 + top
-+ width
++ ~~width~~
 + word-spacing
 + visibility (visible | hidden)
 + z-index
