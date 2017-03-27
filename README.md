@@ -53,7 +53,7 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + ~~padding~~
 + position (static | relative | absolute)
 + right
-+ text-align (left | right | center | justify)
++ ~~text-align (left | right | center | justify)~~
 + text-decoration (none | underline | overline | line-through)
 + text-indent
 + text-transform (capitalize | uppercase | lowercase | none)
