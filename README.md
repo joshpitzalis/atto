@@ -45,7 +45,7 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + ~~height~~
 + left
 + line-height
-+ list-style
++ ~~list-style~~
 + list-style-image
 + list-style-position
 + ~~margin~~
