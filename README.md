@@ -17,6 +17,7 @@ In Progress...
 - [ ] Add all CSS 2.1 properties for fallbacks.
 - [ ] Add an accessible HTML starter template.
 - [ ] Add an accessible colour palette.
+- [ ] Make system font default.
 - [ ] host on unpkg.
 
 #### Fallback [CSS 2.1 properties](http://caniuse.com/#search=css) (well-supported subset)
@@ -41,7 +42,7 @@ These properties are supported in effectively all browsers (since IE6+, Firefox 
 + font-size
 + font-style (normal | italic | oblique)
 + font-variant (normal | small-caps)
-+ font-weight
++ ~~font-weight~~
 + ~~height~~
 + left
 + line-height
