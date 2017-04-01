@@ -41,11 +41,12 @@ clip: rect(1px, 1px, 1px, 1px);
 .cxc { align-items: center; }
 .cxb { align-items: baseline; }
 .cxf { align-items: stretch; }
-.ss { align-self: flex-start; }
-.se { align-self: flex-end; }
-.sc { align-self: center; }
-.sb { align-self: baseline; }
-.sf { align-self: stretch; }
+.cs { align-self: flex-start; }
+.ce { align-self: flex-end; }
+.cc { align-self: center; }
+.cb { align-self: baseline; }
+.cf { align-self: stretch; }
+.ca { align-self: auto; }
 /*mx is for main axis*/
 .mxs { justify-content: flex-start; }
 .mxe { justify-content: flex-end; }
@@ -58,6 +59,8 @@ clip: rect(1px, 1px, 1px, 1px);
 .acb { align-content: space-between; }
 .aca { align-content: space-around; }
 .acf { align-content: stretch; }
+.ms { margin-right: auto; }
+.me { margin-left: auto; }
 .0 { order: 0; }
 .1 { order: 1; }
 .2 { order: 2; }
@@ -407,3 +410,25 @@ clip: rect(1px, 1px, 1px, 1px);
 .fw7    { font-weight: 700; }
 .fw8    { font-weight: 800; }
 .fw9    { font-weight: 900; }
+
+/*font style*/
+.i         { font-style: italic; }
+.fs-normal { font-style: normal; }
+
+/*LINE HEIGHT / LEADING*/
+.lh-solid { line-height: 1; }
+.lh-title { line-height: 1.25; }
+.lh-copy  { line-height: 1.5; }
+
+/*FLOATS*/
+.fl { float: left;  _display: inline; }
+.fr { float: right; _display: inline; }
+.fn { float: none; }
+
+/* Nicolas Gallaghers Clearfix solution
+   Ref: http://nicolasgallagher.com/micro-clearfix-hack/ */
+   
+.cf:before,
+.cf:after   { content: " "; display: table; }
+.cf:after   { clear: both; }
+.cf         { *zoom: 1; }
