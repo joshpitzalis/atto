@@ -555,3 +555,134 @@ clip: rect(1px, 1px, 1px, 1px);
 .z-inherit { z-index: inherit; }
 .z-initial { z-index: initial; }
 .z-unset { z-index: unset; }
+
+/*overflows*/
+.overflow-visible { overflow: visible; }
+.overflow-hidden { overflow: hidden; }
+.overflow-scroll { overflow: scroll; }
+.overflow-auto { overflow: auto; }
+
+.overflow-x-visible { overflow-x: visible; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-x-scroll { overflow-x: scroll; }
+.overflow-x-auto { overflow-x: auto; }
+
+.overflow-y-visible { overflow-y: visible; }
+.overflow-y-hidden { overflow-y: hidden; }
+.overflow-y-scroll { overflow-y: scroll; }
+.overflow-y-auto { overflow-y: auto; }
+
+/*HOVER EFFECTS*/
+
+/*Dim element on hover by adding the dim class.*/
+.dim
+{
+    -webkit-transition: opacity .15s ease-in;            transition: opacity .15s ease-in;
+
+    opacity: 1;
+}
+.dim:hover,
+.dim:focus
+{
+    -webkit-transition: opacity .15s ease-in;            transition: opacity .15s ease-in;
+
+    opacity: .5;
+}
+.dim:active
+{
+    -webkit-transition: opacity .15s ease-out;            transition: opacity .15s ease-out;
+
+    opacity: .8;
+}
+/*Hide child & reveal on hover:
+
+  Put the hide-child class on a parent element and any nested element with the
+  child class will be hidden and displayed on hover or focus.
+
+  <div class="hide-child">
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+    <div class="child"> Hidden until hover or focus </div>
+  </div>
+*/
+.hide-child .child
+{
+    -webkit-transition: opacity .15s ease-in;            transition: opacity .15s ease-in;
+
+    opacity: 0;
+}
+.hide-child:hover  .child,
+.hide-child:focus  .child,
+.hide-child:active .child
+{
+    -webkit-transition: opacity .15s ease-in;            transition: opacity .15s ease-in;
+
+    opacity: 1;
+}
+.underline-hover:hover,
+.underline-hover:focus
+{
+    text-decoration: underline;
+}
+/* Can combine this with overflow-hidden to make background images grow on hover
+ * even if you are using background-size: cover */
+.grow
+{
+    -webkit-transition: -webkit-transform .25s ease-out;            transition: -webkit-transform .25s ease-out;            transition:         transform .25s ease-out;            transition:         transform .25s ease-out, -webkit-transform .25s ease-out; -webkit-transform: translateZ( 0 );         transform: translateZ( 0 );
+
+    -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden;         backface-visibility: hidden;
+}
+.grow:hover,
+.grow:focus
+{
+    -webkit-transform: scale( 1.05 );            transform: scale( 1.05 );
+}
+.grow:active
+{
+    -webkit-transform: scale( .90 );            transform: scale( .90 );
+}
+.grow-large
+{
+    -webkit-transition: -webkit-transform .25s ease-in-out;            transition: -webkit-transform .25s ease-in-out;            transition:         transform .25s ease-in-out;            transition:         transform .25s ease-in-out, -webkit-transform .25s ease-in-out; -webkit-transform: translateZ( 0 );         transform: translateZ( 0 );
+
+    -moz-osx-font-smoothing: grayscale; -webkit-backface-visibility: hidden;         backface-visibility: hidden;
+}
+.grow-large:hover,
+.grow-large:focus
+{
+    -webkit-transform: scale( 1.2 );            transform: scale( 1.2 );
+}
+.grow-large:active
+{
+    -webkit-transform: scale( .95 );            transform: scale( .95 );
+}
+/* Add pointer on hover */
+.pointer:hover
+{
+    cursor: pointer;
+}
+/*
+   Add shadow on hover.
+   Performant box-shadow animation pattern from
+   http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+*/
+.shadow-hover::after
+{
+    -webkit-transition: opacity .25s ease-in-out;
+            transition: opacity .25s ease-in-out;
+
+    opacity: 0;
+    box-shadow: 0 0 8px 2px rgba( 0, 0, 0, .2 );
+}
+.shadow-hover:hover::after,
+.shadow-hover:focus::after
+{
+    opacity: 1;
+}
+.bg-animate,
+.bg-animate:hover,
+.bg-animate:focus
+{
+    -webkit-transition: background-color .15s ease-in-out;            transition: background-color .15s ease-in-out;
+}
