@@ -48,17 +48,15 @@ WIP: grow, shrink, and basis are on the way.
 class='flex mxc' => .container {
   display: flex;
   justify-content: center;
-}```
+}
 
-```
 class='flex col mxs cxc' => .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}```
+}
 
-```
 class='ce 1' => .item {
   display: flex;
   order: 1;
