@@ -3,6 +3,12 @@ An Atomic Flexbox CSS Framework.
 
 **Atto**: A unit prefix in the metric system denoting one trillionth.
 
+## Getting Started
+
+Copy the line of code below and paste it in the head of the html file(s) you want to include atto in.
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/attoflex@latest/atto.min.css"/>`
+
 + Currently 2.4 KB [minified](http://www.minifier.org/).
 + Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
 + Everything has been auto-prefixed for excellent cross-browser support.
