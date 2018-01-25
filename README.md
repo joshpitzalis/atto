@@ -24,18 +24,19 @@ Combine one of these...
 | --------- | --------------- |
 | jc...     | justify-content |
 | ai...     | align-items     |
-| as...     | align-content   |
+| as...     | align-self\*    |
 
 ...with one of these...
 
-| Shorthand | Description    |
-| --------- | -------------- |
-| ...s      | start          |
-| ...c      | centre         |
-| ...e      | end            |
-| ...f      | stretch (fill) |
-| ...b      | between        |
-| ...a      | around         |
+| Shorthand | Description      |
+| --------- | ---------------- |
+| ...s      | start\*          |
+| ...c      | centre\*         |
+| ...e      | end\*            |
+| ...f      | stretch (fill)\* |
+| ...b      | space-between    |
+| ...a      | space-around     |
+| ...v      | space-evenly     |
 
 ...and you get all of the flexbox qnd grid alignmnet properties as atomic class names.
 
