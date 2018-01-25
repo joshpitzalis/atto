@@ -55,11 +55,12 @@ This would be the same as giving the parent a class .nav {
   justify-content: space-between;
 }
 
----
 
-If you want something dead center in a parent div:
+Say you want something dead center in a parent div:
 
-<parentDiv class='grid x' ><child/></parentDiv>
+<parentDiv class='grid x' >
+  <child/>
+</parentDiv>
 
 This would be the same as giving the parent a class .parent {
   display: grid;
