@@ -1,69 +1,61 @@
 # Atto
-An Atomic Flexbox CSS Framework.
+
+An Atomic CSS Framework for Grid & Flexbox.
 
 **Atto**: A unit prefix in the metric system denoting one trillionth.
 
-## Getting Started
-
-Copy the line of code below and paste it in the head of the html file(s) you want to include atto in.
-
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/attoflex@latest/atto.min.css"/>`
-
-+ Currently 2.4 KB [minified](http://www.minifier.org/).
-+ Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
-+ Everything has been auto-prefixed for excellent cross-browser support.
+* Currently 2.5 KB [minified](http://www.minifier.org/).
+* Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
+* Everything has been auto-prefixed for excellent cross-browser support.
 
 #### Naming Conventions
 
 ##### Flex Container
 
-|Shorthand	|Description|
-|---|---|
-|flex	|`display: flex`|
-|row	|`flex-direction: row`|
-|col	|`flex-direction: column`|
-|wrap	|` flex-wrap: wrap`|
-|mx	|justify-content (main axis)|
-|cx	|align-items (cross axis)|
-|ac	|align-content |
+| Shorthand | Description                                        |
+| --------- | -------------------------------------------------- |
+| grid      | `display: grid`                                    |
+| flex      | `display: flex`                                    |
+| row       | `flex-direction: row` or `grid-auto-flow: column;` |
+| col       | `flex-direction: column` or `grid-auto-flow: row;` |
+| wrap      | `flex-wrap: wrap`                                  |
 
-##### Flex Items
+Combine one of these...
 
-|Shorthand	|Description|
-|---|---|
-|c	| align-self|
-|m	| justify-self (uses auto margin)|
-|0 - 5	| order |
+|jc... |justify-content|
+|ai... |align-items|
+|as... |align-content |
 
-WIP: grow, shrink, and basis are on the way.
+...with one of these...
 
-##### Alignment
+| Shorthand | Description    |
+| --------- | -------------- |
+| ...s      | start          |
+| ...c      | centre         |
+| ...e      | end            |
+| ...f      | stretch (fill) |
+| ...b      | between        |
+| ...a      | around         |
 
-|Shorthand	|Description|
-|---|---|
-|s	| start|
-|c	| centre|
-|e	| end|
-|f	| stretch (fill)|
-|b	| between |
-|a	| around|
+...and you get all of the flexbox qnd grid alignmnet properties as atomic class names.
 
 ##### Examples
 
-```
-class='flex mxc' => .container {
-  display: flex;
+````
+class='grid jcc' => .container {
+  display: grid;
   justify-content: center;
 }
 
-class='flex col mxs cxc' => .container {
+class='flex col jcs aic' => .container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-class='ce 1' => .item {
-  display: flex;
-  order: 1;
+class='grid x' => .item {
+  display: grid;
+  place items: center center;
 }```
+````
