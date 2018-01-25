@@ -8,9 +8,7 @@ An Atomic CSS Framework for Grid & Flexbox.
 * Works in conjunction with [Tachyons.css](http://tachyons.io/), no class name conflicts.
 * Everything has been auto-prefixed for excellent cross-browser support.
 
-#### Naming Conventions
-
-##### Flex Container
+### Naming Conventions
 
 | Shorthand | Description                                        |
 | --------- | -------------------------------------------------- |
@@ -22,9 +20,11 @@ An Atomic CSS Framework for Grid & Flexbox.
 
 Combine one of these...
 
-|jc... |justify-content|
-|ai... |align-items|
-|as... |align-content |
+| Shorthand | Description     |
+| --------- | --------------- |
+| jc...     | justify-content |
+| ai...     | align-items     |
+| as...     | align-content   |
 
 ...with one of these...
 
