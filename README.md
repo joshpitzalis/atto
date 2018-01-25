@@ -38,25 +38,31 @@ Combine one of these...
 | ...a      | space-around     |
 | ...v      | space-evenly     |
 
-...and you get all of the flexbox qnd grid alignmnet properties as atomic class names.
+...and you get all of the flexbox and grid alignment properties as atomic class names.
 
 ##### Examples
 
-````
-class='grid jcc' => .container {
-  display: grid;
-  justify-content: center;
-}
+```
+If you want space things on either end in a navbar:
 
-class='flex col jcs aic' => .container {
+<nav class='flex jcb'>
+  <child1/>
+  <child2/>
+</nav>
+
+This would be the same as giving the parent a class .nav {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
 }
 
-class='grid x' => .item {
+---
+
+If you want something dead center in a parent div:
+
+<parentDiv class='grid x' ><child/></parentDiv>
+
+This would be the same as giving the parent a class .parent {
   display: grid;
   place items: center center;
-}```
-````
+}
+```
